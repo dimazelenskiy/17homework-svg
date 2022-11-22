@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.svg {
+    width: 300px;
+    height: 200px;
+}
+
+.circle {
+    stroke: green;
+    stroke-width: 5;
+    fill: yellow;
+}
+
+.square {
+    fill: blue;
+    stroke-width: 5;
+    stroke: red;
+}
+
+.rectangle {
+    fill: gray;
+    stroke-width: 5;
+    stroke: aqua;
+}
+
+.ellipse {
+    fill: orange;
+    stroke-width: 5;
+    stroke: salmon;
+}
+
+.ellipse-animation {
+    fill: orange;
+    stroke-width: 5;
+    stroke: salmon;
+    transition: 1s;
+}
+
+.svg:hover .ellipse-animation {
+    fill: green;
+    stroke-width: 5;
+    stroke: aqua;
+}
